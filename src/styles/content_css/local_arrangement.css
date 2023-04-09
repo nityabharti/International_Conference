@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.local-main-about {
+  width: 80%;
+  margin: 1rem auto;
+  /* display: flex;
+    align-items: center;  */
+}
+/* .about_haryana{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #F2F2F2;
+    border: 1px solid red;
+}
+.location_haryana{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444444;
+} */
+.head_weather {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #444444;
+}
+.p-about-haryana,
+.p-location_haryana,
+.para_weather {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+/* about cuh section  */
+/* .aboutcuh_head{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.about_dept{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444444;
+}
+.p_aboutcuh{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+} */
+.how_to_reach {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.map_how_to_reach {
+  height: 50vh;
+  width: 85%;
+}
+.map_how_to_reach:hover {
+  /* height: 52vh;
+    width: 86%;
+    transform: scale(1.1); */
+  transform: translateY(-0.5rem) scale(1.0125);
+  box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+}
+.how_to_reach_head {
+  font-size: 30px;
+  font-weight: 700;
+}
+.byair_head {
+  /* text-align: center; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #444444;
+  margin-top: 2rem;
+}
+.P_byair {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+.bytrain {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444444;
+}
+.byroad_head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #444444;
+  margin-top: 1rem;
+}
+.p_byroad {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+
+/*for table*/
+.table_head {
+  text-align: center;
+  color: #4f524a;
+}
+.table_row {
+  background-color: #9fc088;
+}
+
+.commitee-mem {
+  padding: 0.7rem 4rem;
+}
+.commitee-mem h2 {
+  font-size: 30px;
+}
+@media only screen and (min-device-width: 0px) and (max-device-width: 435px) {
+  .student-co-ordinators {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,807 @@
+
+{
+    "patron":[
+        {
+            "name":"Prof. (Dr.) Tankeshwar Kumar",
+            "role":"Honarable Vice chancellor",
+            "department":"",
+            "collage":"Central University of Haryana",
+            "location":"India",
+            "image":"https://www.cuh.ac.in//images/vcsir11.png"
+        }
+    ],
+    "honorarychair":[
+        {
+            "name":"Prof. Sathans",
+            "role":"Dean Academics",
+            "department":"Dept of Electrical Engineering",
+            "collage":"National Institute of Technology",
+            "location":"Kurukshetra, India",
+            "image":"http://www.nitkkr.ac.in/admin/member_images/100.jpg"
+        }
+    ],
+    "generalchair":[
+        {
+            "name":"Prof. Sunita Srivastav",
+            "role":"",
+            "department":"",
+            "collage":"Central University of Haryana",
+            "location":"India",
+            "image":"https://physics.puchd.ac.in/faculty/pics/sunita.jpg"
+        },        
+        {
+            "name":"Dr. Phool Singh",
+            "role":"Dean",
+            "department":"School of Engineering and Techonology",
+            "collage":"Central University of Haryana",
+            "location":"India",
+            "image":"data:image/jpeg;base64,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"
+        }
+    ],
+    "programchair":[
+        { 
+            "name":"Dr. Rajesh Kumar Dubey",
+            "role":"Head of the Department",
+            "department":"Dept. of Electrical Engineering , SOET",
+            "collage":"Central University of Haryana",
+            "location":"India",
+            "image":"data:image/jpeg;base64,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"
+        } 
+    ],
+    "Technicalprogramcommitteechair":[
+      { 
+        "name":"Dr. Sadhan Gope",
+        "role":"",
+        "department":"Dept. of Electrical Engineering",
+        "collage":"Mizoram University",
+        "location":"Mizoram",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    }, 
+    { 
+        "name":"Dr. Naveen Yalla",
+        "role":"",
+        "department":"Dept. of Electrical Engineering",
+        "collage":" Indian Institute of Technology (BHU)",
+        "location":"Uttar Pradesh ",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    },
+        { 
+            "name":"Sangeetha",
+            "role":"",
+            "department":"Dept. of Computer Science and Engineering",
+            "collage":"Central University of Haryana",
+            "location":"Haryana",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+        }, 
+        { 
+            "name":"Dr. Sasikanth Sarangam",
+            "role":"",
+            "department":"",
+            "collage":"JNTU Kakinada",
+            "location":"Andhra Pradesh",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+        },
+        { 
+            "name":"Dr. Tejavathu Ramesh",
+            "role":"",
+            "department":"",
+            "collage":"NIT",
+            "location":"Andhra Pradesh",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+        },
+        { 
+            "name":"Dr.Maruthi Mulaka",
+            "role":"",
+            "department":"",
+            "collage":"Central University of Haryana",
+            "location":"Haryana",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+        }
+        
+        
+    ],
+
+    "Technicalprogramcommitteemembers":[
+               
+        { 
+            "name":"Dr. Munish Manas",
+            "role":"",
+            "department":"Dept. of Electrical Engineering",
+            "collage":"Central University of Haryana",
+            "location":"Haryana",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+        } ,
+        { 
+            "name":"Dr. Kalphana Chauhan",
+            "role":"",
+            "department":"",
+            "collage":"Central University of Haryana",
+            "location":"Haryana",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+        } ,
+        { 
+            "name":"Dr. Atma Ram Gupta",
+            "role":"",
+            "department":"Dept. of Electrical Engineering",
+            "collage":"National Institute of Technology",
+            "location":"Kurushektra ",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+        } ,
+        { 
+            "name":"Dr. Jiwan Jyoth",
+            "role":"",
+            "department":"Dept. of Electrical Engineering",
+            "collage":"National Institute of Technology",
+            "location":"Silchar",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+        },
+        { 
+            "name":"Dr. Rambabu",
+            "role":"",
+            "department":"Dept. of Electrical Engineering",
+            "collage":"National Institute of Technology",
+            "location":"Calicut ",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+        },
+        {
+            "name": "Dr. Soumya Mishra",
+            "role": "",
+            "department": "Dept. of Electrical and Electronics Engineering",
+            "collage": "MVJ College of Engineering",
+            "location": "Bangalore",
+            "image": ""
+          },
+          {
+            "name": "Dr. Damodhara V Siva Krishna Rao K",
+            "role": "",
+            "department": "Dept. of Electrical Engineering",
+            "collage": "National Institute of Technology",
+            "location": "Srinagar",
+            "image": ""
+          },
+          {
+            "name": "Dr. Chinmaya Behera",
+            "role": "",
+            "department": "Dept. of Electrical and Electronics Engineering",
+            "collage": "CMR Institute of Technology",
+            "location": "Bangalore ",
+            "image": ""
+          },
+          {
+            "name": "Dr. Swapna Mansani",
+            "role": "",
+            "department": "Dept. of Electrical Engineering",
+            "collage": "National Institute of Technology",
+            "location": "Silichar",
+            "image": ""
+          },
+          {
+            "name": "Dr. Subhasish Deb",
+            "role": "",
+            "department": "Dept. of Electrical Engineering",
+            "collage": "Mizoram University (Central University)",
+            "location": "Mizoram ",
+            "image": ""
+          },
+          {
+            "name": "Dr. Venugopal Reddy",
+            "role": "",
+            "department": "Dept. of Electrical Engineering",
+            "collage": "National Institute of Technology",
+            "location": "Goa ",
+            "image": ""
+          },
+          {
+            "name": "Dr. Tirumalasetty Chiranjeevi",
+            "role": "",
+            "department": "",
+            "collage": "Rajkiya Engineering College Sonbhadra",
+            "location": "UP ",
+            "image": ""
+          },
+          {
+            "name": "Dr. P Ranga Babu",
+            "role": "",
+            "department": "Dept. of Electronics and Communication Engineering",
+            "collage": "National Institute of Technology",
+            "location": "Megahalaya ",
+            "image": ""
+          },
+          {
+            "name": "Dr. D. Krishna",
+            "role": "",
+            "department": "Dept. of Electrical and Electronics Engineering",
+            "collage": "Vardhaman College of Engineering",
+            "location": "Hyderabad",
+            "image": ""
+          },
+          {
+            "name": "Dr. Hari Priya Vemuganti",
+            "role": "",
+            "department": "Dept. of Electrical Engineering",
+            "collage": "National Institute of Technology",
+            "location": "Raipur",
+            "image": ""
+          },
+          {
+            "name": "Dr. D. Suresh",
+            "role": "",
+            "department": "Dept. of Electrical Engineering",
+            "collage": "National Institute of Technology",
+            "location": "Raipur",
+            "image": ""
+          },
+          {
+            "name": "Dr. Ramya Selvraj",
+            "role": "",
+            "department": "Dept. of Electrical Engineering",
+            "collage": "National Institute of Technology",
+            "location": "Raipur",
+            "image": ""
+          },
+          {
+            "name": "Dr. Venu Sonti",
+            "role": "",
+            "department": "Dept. of Electrical Engineering",
+            "collage": "National Institute of Technology",
+            "location": "Raipur",
+            "image": ""
+          },
+          {
+            "name": "Dr. Vinod Adla",
+            "role": "",
+            "department": "Dept. of Electrical and Electronics Engineering",
+            "collage": "MLR Institute of Technology and Management",
+            "location": "Hyderabad",
+            "image": ""
+          },
+          {
+            "name": "Dr. G. Amarnath",
+            "role": "",
+            "department": "Dept. of Electrical and Electronics Engineering",
+            "collage": "MLR Institute of Technology and Management",
+            "location": "Hyderabad",
+            "image": ""
+          },
+          {
+            "name": "Dr. K Shashidhar Reddy",
+            "role": "",
+            "department": "Dept. of Electrical and Electronics Engineering",
+            "collage": "CVR College of Engineering",
+            "location": "Hyderabad",
+            "image": ""
+          },
+          {
+            "name": "Dr. Samineni Peddakrishna",
+            "role": "",
+            "department": "Dept. of Electronics and Communication Engineering",
+            "collage": "VIT Amaravati",
+            "location": "Andhra Pradesh",
+            "image": ""
+          },
+          {
+            "name": "Dr. Jayesh Ruikar",
+            "role": "",
+            "department": "Dept. of Electrical Engineering",
+            "collage": "Bajaj Institute of Technology",
+            "location": "Pipri-Wardha,Maharashtra",
+            "image": ""
+          },
+          {
+            "name": "Dr. Sankar Peddapati",
+            "role": "",
+            "department": "Dept. of Electrical Engineering",
+            "collage": "National Institute of Technology",
+            "location": "Andhra Pradesh ",
+            "image": ""
+          },
+          {
+            "name": "Dr. D Shobha Rani",
+            "role": "",
+            "department": "Dept. of Electrical and Electronics Engineering",
+            "collage": "Institute of Aeronautical Engineering",
+            "location": "Hyderabad",
+            "image": ""
+          },
+          {
+            "name": "Dr. VaraPrasad Janamala",
+            "role": "",
+            "department": "Dept. of Electrical and Electronics Engineering",
+            "collage": "Christ university",
+            "location": "Bangalore",
+            "image": ""
+          },
+          {
+            "name": "Er. Sandeep Boora",
+            "role": "",
+            "department": "",
+            "collage": "Central University of Haryana",
+            "location": "Haryana",
+            "image": ""
+          },
+          {
+            "name": "Dr. Shoaib Kamal",
+            "role": "",
+            "department": "",
+            "collage": "MVJ College of Engineering",
+            "location": "Bangalore",
+            "image": ""
+          },
+          {
+            "name": "Dr. Nalin",
+            "role": "",
+            "department": "",
+            "collage": "",
+            "location": "",
+            "image": ""
+          },
+          {
+            "name": "Dr. Deepesh Sharma",
+            "role": "",
+            "department": "",
+            "collage": "DCRUST Murthal",
+            "location": "Haryana",
+            "image": ""
+          }
+    ],
+    "Organizingchair":[
+        { 
+           "name":"Dr. Muralidhar Nayak Bhukya",
+           "role":"",
+           "department":"Dept. of Electrical Engineering, SOET",
+           "collage":"Central University of Haryana",
+           "location":"India",
+           "image":"http://www.cuh.ac.in/admin/uploads/department/ee/Dr.%20Muralidhar%20Nayak%20Bhukya.jpg"
+       }
+    ],
+    "Organizingsecretary":[
+        {
+            "name":"Dr. Galiveeti Hemakumar Reddy",
+            "role":"",
+            "department":"Dept. of Electrical and Electronics Engineering",
+            "collage":"MVJ College of Engineering",
+            "location":"Banglore, India",
+            "image":"data:image/jpeg;base64,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"
+        }
+    ],
+    "organisingcosecretry":[
+    {
+        "name":"Dr. Manish Kumar",
+        "role":"",
+        "department":"Dept. of Electrical Engineering, SOET",
+        "collage":"Central University of Haryana",
+        "location":"India",
+        "image":"http://cuh.ac.in/photo%20with%20name%20and%20Designation_files/image008.jpg"
+    },
+    {
+        "name":"Dr. Abisheik Jindal",
+        "role":"",
+        "department":"Dept. of Civil Engineering, SOET",
+        "collage":"Central University of Haryana",
+        "location":"India",
+        "image":"https://cuh.ac.in/pdf/BTECH/abhijindal.png"
+    }
+],
+"Publicityandpublicrelationschair":[
+  { 
+    "name":"Dr. Sumit Saini",
+    "role":"",
+    "department":"Dept. of Electrical Engineering (SOET)",
+    "collage":"Central University of Haryana",
+    "location":"Haryana ",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+},
+    {    
+        "name":"Dr. Sudhir Kumar",
+        "role":"",
+        "department":"",
+        "collage":"Central University of Haryana",
+        "location":"Haryana",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+
+    },
+    {
+        "name":"Dr. P.Kumar",
+        "role":"",
+        "department":"",
+        "collage":"Central University of Haryana",
+        "location":"Haryana",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    },
+    {
+        "name":"Dr. More Raju",
+        "role":"",
+        "department":"",
+        "collage":"Central University of Haryana",
+        "location":"Haryana",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    }
+],
+"Webadministrator":[
+  {
+    "name": "Mr. Ajay Singh",
+    "role": "",
+    "department": "",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": ""
+  },
+  {
+    "name": "Er. Divyanshu Verma",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": ""
+  },
+  {
+    "name": "Er. Hari Kiran Kante",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": ""
+  },
+  {
+    "name": "Er. Ajay Kumar Daki",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": ""
+  },
+  {
+    "name": "Er. Allu Vishnu Vardhan Reddy",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": ""
+  }
+],
+"Localorganizationcommittee":[
+  {
+    "name":"Dr. Vishal Passricha",
+    "role":"",
+    "department":"CSE",
+    "collage":"Central University of Haryana",
+    "location":"India",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+},
+    {
+        "name":"Er. Nishan",
+        "role":"",
+        "department":"",
+        "collage":"Central University of Haryana",
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    }
+    
+
+],
+"Internationaladvisorycommittee":[
+    {
+        "name":"Dr. Vincenzo Piuri",
+        "role":"Professor",
+        "department":"",
+        "collage":"Universita’ degli Studi di, Milano",
+        "location":"Via Celoria",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    },
+    {
+        "name":"Dr. Akhtar Kalam",
+        "role":"Professor",
+        "department":"",
+        "collage":"Victoria University",
+        "location":"Australia",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    },
+    {
+        "name":"Dr. Haitham Abu-Rub",
+        "role":"Professor",
+        "department":"",
+        "collage":"Texas A & MUniversity",
+        "location":"Qatar",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    },
+    {
+        "name":"Dr. Atif Iqbal",
+        "role":"Associate Professor",
+        "department":"",
+        "collage":"Qatar University",
+        "location":"Qatar",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    },
+    {
+        "name":"Dr. Mohammad Shorif Uddin",
+        "role":"Professor",
+        "department":"",
+        "collage":"Jahangirnagar University",
+        "location":"Bangladesh",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    },
+    {
+        "name": "Md Atiqur Rahman Ahad",
+        "role": "Professor",
+        "department": "",
+        "collage": "University of Dhaka",
+        "location": "Dhaka",
+        "image": ""
+      },
+      {
+        "name": "Hassan Haes Alhelou",
+        "role": "Professor",
+        "department": "Dept. of Electrical Engineering",
+        "collage": "Tishreen University",
+        "location": "Syria",
+        "image": ""
+      },
+      {
+        "name": "Prof. Mousa Marzband",
+        "role": "",
+        "department": "",
+        "collage": "Northumberia University",
+        "location": "UK",
+        "image": ""
+      },
+      {
+        "name": "Prof. Irfan Khan",
+        "role": "",
+        "department": "",
+        "collage": "Texas A&M University",
+        "location": "USA",
+        "image": ""
+      },
+      {
+        "name": "Prof. SM Moyen",
+        "role": "",
+        "department": "",
+        "collage": "Qatar University",
+        "location": "Doha",
+        "image": ""
+      },
+      {
+        "name": "Prof. Sheldon Willamson",
+        "role": "",
+        "department": "",
+        "collage": "Ontariotech University",
+        "location": "Canada",
+        "image": ""
+      },
+      {
+        "name": "Prof Yujia Zhai",
+        "role": "",
+        "department": "",
+        "collage": "Huddersfield University UK",
+        "location": "Huddersfield",
+        "image": ""
+      },
+      {
+        "name": "Dr. Sureka Lanka",
+        "role": "",
+        "department": "",
+        "collage": "Stamford International University",
+        "location": "Thailand",
+        "image": ""
+      },
+      {
+        "name": "Dr. Vikash",
+        "role": "",
+        "department": "",
+        "collage": "Ethiopia University",
+        "location": "",
+        "image": ""
+      },
+      {
+        "name": "Dr. Alok",
+        "role": "",
+        "department": "",
+        "collage": "Singapore University",
+        "location": "",
+        "image": ""
+      },
+      {
+        "name": "Dr. Sanjeevikumar Padmanaban",
+        "role": "",
+        "department": "",
+        "collage": "Aarhus University",
+        "location": "Denmark",
+        "image": ""
+      }
+],
+"NationalAdvisoryCommittee":[
+  {
+    "name": "Prof . Ashwani Kumar",
+    "role": "Registrar",
+    "department": "",
+    "collage": "NIT",
+    "location": "Kurushektra",
+    "image": ""
+  },
+  {
+    "name": "Prof. Dr. Venkata Reddy Kota",
+    "role": "Registrar",
+    "department": "",
+    "collage": "JNTU Kakinada",
+    "location": "Andhra Pradesh",
+    "image": ""
+  },
+  {
+    "name": "Prof. Dr. L Sumalatha",
+    "role": "Registrar",
+    "department": "",
+    "collage": "JNTU Kakinada",
+    "location": "Andhra Pradesh",
+    "image": ""
+  },
+  {
+    "name": "Prof. Dr. M.H.M Krishna Prasad",
+    "role": "Principal",
+    "department": "",
+    "collage": "JNTU Kakinada",
+    "location": "Andhra Pradesh",
+    "image": ""
+  },
+  {
+    "name": "Prof. B. Balakrishna",
+    "role": "Director of Evaluation",
+    "department": "",
+    "collage": "JNTU Kakinada",
+    "location": "Andhra Pradesh",
+    "image": ""
+  },
+  {
+    "name": "Dr. Ajay Kumar Bansal",
+    "role": "Professor",
+    "department": "Dept. of Electrical Engineering (SOET)",
+    "collage": "Central University of Haryana",
+    "location": "Haryana",
+    "image": ""
+  },
+  {
+    "name": "Dr. Manoj Kumar Singh",
+    "role": "Professor",
+    "department": "",
+    "collage": "Central University of Haryana",
+    "location": "Haryana",
+    "image": ""
+  },
+  {
+    "name": "Dr. Nidul Sinha",
+    "role": "Professor",
+    "department": "",
+    "collage": "National Institute of Technology",
+    "location": "Silichar",
+    "image": ""
+  },
+  {
+    "name": "Dr. Pramod Kumar Singh",
+    "role": "Associate Professor",
+    "department": "",
+    "collage": "IIITM",
+    "location": "Gwalior",
+    "image": ""
+  },
+  {
+    "name": "Dr. Subindu Kumar",
+    "role": "Associate Professor",
+    "department": "",
+    "collage": "Indian Institute of Technology ",
+    "location": "Dhanbad",
+    "image": ""
+  },
+  {
+    "name": "Dr. Prashant Kumar Tiwari",
+    "role": "Assistant Professor",
+    "department": "Dept. of Electrical Engineering",
+    "collage": "Motilal Nehru NIT Allahabad",
+    "location": "Allahabad",
+    "image": ""
+  },
+  {
+    "name": "Dr. Piyush Prathap Singh",
+    "role": "",
+    "department": "",
+    "collage": "NIT",
+    "location": "Meghalaya",
+    "image": ""
+  },
+  {
+    "name": "Dr. Pierluigi Siano",
+    "role": "",
+    "department": "",
+    "collage": "University of Salerno",
+    "location": "Italy",
+    "image": ""
+  }
+],
+"Studentco-ordinator":[
+    {
+    "name": "Er. S. Francis Livinraj",
+    "role": "Student",
+    "department": "Department of Electrical Engg",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"7013551210"
+  },
+  {
+    "name": "Er. Anirudh Pragallapati",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"9505049169"
+  },
+  {
+    "name": "Er. T. Vamsi krishna",
+    "role": "Student",
+    "department": "Department of CSE",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"8688052185"
+  },
+  {
+    "name": "Er. K. Puneeth sai",
+    "role": "Student",
+    "department": "Department of PPT",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"7842377124"
+  },
+  {
+    "name": "Er. Rakesh",
+    "role": "Student",
+    "department": "Department of PPT",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"9515534045"
+  },
+  {
+    "name": "Er. P. Sai Ganesh",
+    "role": "Student",
+    "department": "Department of Electrical Engg",
+    "collage": "Central University of Haryana",
+    "location": "India",
+    "image": "",
+    "contact":"9390193736"
+  }
+
+],
+"Keynotespeakers":[
+    {
+        "name":"Prof. Ashwani Kumar",
+        "role":"Head",
+        "department":"Dept. of Electrical Engineering",
+        "collage":"National Institute of Technology",
+        "location":"KKR, India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    },
+    {
+        "name":"Prof. Atma Ram Gupta",
+        "role":"Head",
+        "department":"Dept. of Electrical Engineering",
+        "collage":"National Institute of Technology ",
+        "location":"KKR, India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    },
+    {
+        "name":"Prof. K Venkata Reddy",
+        "role":"Head",
+        "department":"Dept. of Electrical Engineering",
+        "collage":"Jawaharlal Nehru Technological University",
+        "location":"KKR, India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    }
+
+]
+
+    
+}
+    
+
+

@@ -1,0 +1,7 @@
+.keynote-main-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* align-items: center; */
+    padding: 20px;
+}

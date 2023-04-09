@@ -1,0 +1,199 @@
+/* @import url('https://fonts.googleapis.com/css?family=Coustard:300,400&display=swap'); */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,900);
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+.callforpaper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10vh;
+}
+.callforpaper .call-for-paper-intro {
+  width: 80%;
+}
+.callforpaper .call-for-paper-intro p {
+  font-size: 20px;
+}
+
+.cfp_cardsa {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 1%;
+  margin-top: 10vh;
+  width: 400px;
+}
+.cfp_cardsa .button {
+  background-color: #0d1847;
+}
+
+.cfp_cardsa .button:hover {
+  background-color: #0d1847;
+}
+.cfp_cards {
+  display: flex;
+  flex-direction: row;
+}
+.cfp_img {
+  height: 380px;
+  width: 380px;
+}
+
+p strong {
+  font-family: Lato;
+  font-size: 40px;
+}
+
+.item {
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  margin: 1% 2% 1% 0%;
+  overflow: hidden;
+  box-shadow: 2px 3px 10px #4444448a;
+  text-align: center;
+}
+
+.item .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 0.5s ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.item span{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Secular One", sans-serif;
+}
+.uncover .overlay span:nth-child(1) {
+  position: absolute;
+  left: 50%;
+  top: auto;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Secular One", sans-serif;
+  transform: translateX(-50%);
+  opacity: 0;
+  text-align: center;
+}
+
+.uncover .overlay span:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 17px;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.uncover .overlay span:nth-child(3) {
+  height: 30px;
+  background-color: #000;
+  position: absolute;
+  top: 38%;
+  opacity: 0;
+}
+
+.uncover .overlay span:nth-child(4) {
+  height: 30px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  opacity: 0;
+}
+
+.uncover .overlay:hover {
+  opacity: 0.9;
+}
+
+.uncover .overlay:hover span:nth-child(1) {
+  animation: fadein 0.6s forwards;
+  animation-delay: 0.5s;
+}
+
+.uncover .overlay:hover span:nth-child(2) {
+  animation: fadein 0.6s forwards;
+  animation-delay: 0.75s;
+}
+
+.uncover .overlay:hover span:nth-child(3) {
+  animation: draw-left 0.7s;
+}
+
+.uncover .overlay:hover span:nth-child(4) {
+  animation: draw-right 0.7s;
+  animation-delay: 0.6s;
+}
+.click_here{
+  position: relative;
+  animation: clickable 2s linear infinite ;
+}
+@keyframes clickable{
+  0%{
+    left:0px;
+  }
+  50%{
+    left:5px;
+  }
+  100%{
+    left:0px;
+  }
+}
+@keyframes draw-left {
+  0% {
+    opacity: 0;
+    width: 0px;
+    left: 75%;
+  }
+  50% {
+    opacity: 1;
+    left: 25%;
+    width: 200px;
+  }
+
+  100% {
+    opacity: 0;
+    width: 0px;
+    left: 25%;
+  }
+}
+
+@keyframes draw-right {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  50% {
+    opacity: 1;
+    width: 200px;
+  }
+
+  100% {
+    opacity: 0;
+    width: 0px;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

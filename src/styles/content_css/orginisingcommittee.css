@@ -1,0 +1,108 @@
+.committee-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  /* border: 1px solid green; */
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-bottom: 20px;
+}
+.committee-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50vh;
+  width: 500px;
+  /* border: 1px solid red; */
+}
+.committee-container .member_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.committee-container .member_head {
+  text-align: center;
+  margin: 0px;
+  width: 350px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.committee-container .member_role {
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+}
+.underline {
+  width: 130px;
+  border-top: 4px solid green;
+}
+.underline::after {
+  content: "";
+}
+.member-namelist {
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.committee-main-containerz {
+  padding-top: 10px;
+}
+.committee-main-containerz .horizontal-line {
+  color: blue;
+  height: 2px;
+}
+.half-section1 {
+  width: 45%;
+}
+.half-section2 {
+  margin-right: 10px;
+  width: 45%;
+}
+@media only screen and (min-device-width: 435px) and (max-device-width: 760px) {
+  .committee-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 7%;
+  }
+  .committee-container {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 300px;
+  }
+  .member-namelist {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 435px) {
+  .committee-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+  }
+  .committee-container {
+    display: flex;
+    flex-direction: column;
+
+    height: 50vh;
+    width: 300px;
+  }
+  .half-section1 {
+    width: 100%;
+  }
+  .half-section2 {
+    width: 100%;
+  }
+  .member-namelist {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.page-title-area{
+    /* margin-top: 10vh; */
+    height: 10vh;
+    background: #FAFAFA;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}

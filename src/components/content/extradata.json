@@ -1,0 +1,19 @@
+{"Technicalprogramcommitteechair":[
+    { 
+        "name":"Dr. Ajay Kumar Bansal",
+        "role":"Professor",
+        "department":"Dept. of Electrical Engineering, SOET",
+        "collage":"Central University of Haryana",
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    },
+    { 
+        "name":"Dr. Sadhan Gope",
+        "role":"",
+        "department":"Dept. of Electrical Engineering",
+        "collage":"Mizoram University",
+        "location":"India",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbkcqGRKwEZjrQ0Iq2kKj0XgoNmzsr6696v4itp_NGGPbixBC3u-VjTFL8DSNACxBhy_Q&usqp=CAU"
+    }  
+]
+}

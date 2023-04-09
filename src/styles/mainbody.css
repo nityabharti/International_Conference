@@ -1,0 +1,49 @@
+.routing_ele{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+.router-container{
+    /* width: 25%; */
+    border: 1px solid black;
+}
+
+.home-container{
+    /* width: 75%; */
+    border: 1px solid red;
+}
+@media only screen and  (min-device-width: 0px) and (max-device-width: 435px)
+{
+    .routing_ele{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+    .router-container{
+        width: auto;
+        border: 1px solid black;
+    }
+    
+    .home-container{
+        width: auto;
+        border: 1px solid red;
+    }
+}
+@media only screen and  (min-device-width: 760px) and (max-device-width: 1024px)
+{
+    .routing_ele{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid red;
+    }
+    .router-container{
+        width: 33%;
+        border: 1px solid black;
+    }
+    
+    .home-container{
+        width: 67%;
+        border: 1px solid red;
+    }
+
+}
